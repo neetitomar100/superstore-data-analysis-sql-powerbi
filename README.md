@@ -2,33 +2,36 @@
 
 ## Project Overview
 
-This project analyzes the **Superstore Sales dataset** using **SQL for data analysis** and **Power BI for interactive data visualization**.
-The goal of this project is to extract business insights such as sales performance, customer behavior, product profitability, and return patterns.
+This project analyzes the **Superstore retail dataset** to uncover key business insights related to sales performance, profitability, customer behavior, and product performance.
 
-This project demonstrates practical **Data Analyst skills** including data querying, business KPI analysis, and dashboard development.
+The analysis was performed using **SQL (PostgreSQL)** for data exploration and **Power BI** for building an interactive dashboard.
+
+The goal of this project is to demonstrate how data analytics can help businesses make better decisions regarding **sales strategy, product performance, and operational efficiency**.
 
 ---
 
 # Tools & Technologies Used
 
-* **SQL (PostgreSQL)** – Data cleaning and analysis
-* **Power BI** – Data visualization and dashboard creation
-* **Excel / CSV Dataset** – Data source
-* **GitHub** – Project documentation and version control
+• SQL (PostgreSQL) – Data exploration and business analysis
+• Power BI – Interactive dashboard and data visualization
+• CSV Dataset – Raw dataset imported into PostgreSQL
+• Excel – Documentation of DAX measures used in the dashboard
+• GitHub – Project hosting and documentation
 
 ---
 
-# Dataset Description
+# Dataset Overview
 
-The project uses the **Superstore dataset** which contains:
+The dataset contains retail order data including:
 
-* Orders data
-* Returned orders data
-* Regional manager data
+* Orders
+* Customers
+* Products
+* Shipping information
+* Sales and Profit data
 
-Main fields include:
+Key columns include:
 
-* Order ID
 * Order Date
 * Customer Name
 * Product Name
@@ -37,147 +40,135 @@ Main fields include:
 * Profit
 * Discount
 * Region
-* Shipping details
+* Shipping Mode
 
 ---
 
-# Key Business Questions Answered
+# Business Questions Answered
 
-This project answers several important business questions:
+This analysis answers several important business questions:
 
-* What is the **total sales, profit, and number of orders**?
-* Which **region generates the highest sales**?
-* What are the **top selling products**?
-* Which **products generate the most profit**?
-* Which **categories perform best**?
-* What is the **return rate of orders**?
-* Which **cities and customers generate the highest sales**?
-* What is the **impact of discounts on profit**?
-* Which **products are causing losses**?
-* What is the **average delivery time**?
+• What are the **total sales, profit, and number of orders**?
+• Which **regions generate the highest sales**?
+• Which **products generate the most revenue**?
+• Which **categories are most profitable**?
+• Which **customers contribute the most sales**?
+• What is the **return rate of orders**?
+• How do **discounts impact profit**?
+• Which products are **loss making**?
 
 ---
 
 # SQL Analysis Performed
 
-Some important SQL analyses include:
+The SQL analysis includes several business-focused queries such as:
 
-* Sales Performance Analysis
-* Product Performance Analysis
-* Category & Sub-category Analysis
-* Customer Sales Analysis
-* Return Rate Analysis
-* Profit Margin Calculation
-* Delivery Time Analysis
-* Discount Impact Analysis
-* Regional Manager Performance
-* Monthly Sales Trend Analysis
+• Total Sales, Profit, and Orders
+• Sales by Region
+• Top Selling Products
+• Most Profitable Products
+• Category Performance Analysis
+• Customer Sales Analysis
+• Return Rate Analysis
+• Monthly Sales Trend
+• Discount Impact on Profit
+• Average Delivery Time
+• Profit Margin Analysis
 
-All SQL queries used in this project are available in the **SQL script file** inside this repository.
+All SQL queries are available in the **SQL script file** included in this repository.
 
 ---
 
 # Power BI Dashboard
 
-An interactive **Power BI dashboard** was built to visualize the insights.
+An interactive **Power BI dashboard** was developed to visualize the insights.
 
 Dashboard highlights include:
 
-* Total Sales
-* Total Profit
-* Total Orders
-* Sales by Region
-* Sales by Category
-* Top Products
-* Monthly Sales Trend
-* Profit Analysis
-* Return Analysis
+• Total Sales KPI
+• Total Profit KPI
+• Total Orders KPI
+• Sales by Region
+• Category Performance
+• Top Products
+• Monthly Sales Trend
+• Profit Analysis
+• Return Analysis
 
-The dashboard helps business users quickly understand key performance indicators.
+---
+
+# DAX Measures Documentation
+
+All DAX measures used in the Power BI dashboard are documented in a separate Excel file.
+
+The file includes:
+
+• Measure Name
+• DAX Formula
+• Description of the calculation
+• Visual where the measure is used
+
+This helps explain the **business logic behind Power BI calculations**.
 
 ---
 
 # Repository Structure
 
-```
 superstore-data-analysis-sql-powerbi
-│
-├── Dataset
-│   ├── superstore_orders.csv
-│   ├── superstore_returns.csv
-│   └── superstore_people.csv
-│
-├── SQL Analysis
-│   └── superstore_analysis.sql
-│
-├── Power BI Dashboard
-│   └── Superstore Analysis.pbix
-│
-└── README.md
-```
+
+Dataset
+  superstore_orders.csv
+
+SQL Analysis
+  superstore_analysis.sql
+
+Power BI Dashboard
+  Superstore_Analysis.pbix
+
+DAX Documentation
+  powerbi_dax_measures_superstore.xlsx
+
+README.md
 
 ---
 
 # How to Access the Project
 
-You can explore this project using the following steps:
-
 ### View SQL Analysis
 
-1. Open the **SQL Analysis folder**
-2. Download or view the file
-   `superstore_analysis.sql`
-3. Run the queries in **PostgreSQL or any SQL environment**
+Open the file:
 
-### View the Power BI Dashboard
+superstore_analysis.sql
 
-1. Download the file
-   `Superstore Analysis.pbix`
-2. Open it in **Microsoft Power BI Desktop**
-3. Interact with the dashboard visuals
+Run the queries in **PostgreSQL or any SQL environment**.
 
----
+### View Power BI Dashboard
 
-# Key Insights from the Analysis
+Download the file:
 
-Some important insights discovered:
+Superstore_Analysis.pbix
 
-* Certain products generate **high sales but low profit due to heavy discounts**
-* A few products are **loss making**
-* Some regions have **higher return rates**
-* A small group of customers contributes a **large share of sales**
-* Delivery time analysis helps understand **shipping efficiency**
+Open it in **Power BI Desktop** to explore the interactive dashboard.
 
 ---
 
 # Skills Demonstrated
 
-This project demonstrates the following **Data Analytics skills**:
-
-* SQL Data Analysis
-* Data Cleaning
-* Business KPI Analysis
-* Data Visualization
-* Dashboard Design
-* Business Insight Generation
-* GitHub Project Documentation
+• SQL Data Analysis
+• Business KPI Analysis
+• Data Visualization
+• Power BI Dashboard Development
+• DAX Calculations
+• GitHub Project Documentation
 
 ---
 
 # Author
 
-**Neeti Tomar**
+Neeti Tomar
+Aspiring Data Analyst skilled in:
 
-Aspiring Data Analyst with experience in:
-
-* SQL
-* Power BI
-* Excel
-* Data Visualization
-* Business Data Analysis
-
----
-
-# Connect With Me
-
-If you found this project interesting, feel free to connect or provide feedback.
+• SQL
+• Power BI
+• Excel
+• Data Analysis
